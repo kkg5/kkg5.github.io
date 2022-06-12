@@ -1,35 +1,23 @@
 body {
-    font-size: 50px;
-    background-color: black;
+    display: flex;
+    justify-content: center;
+    background-color: #282c34;
+    align-items: center;
 }
 
-table {
-    border-collapse: separate;
-    border-spacing: 2rem 2rem;
-    margin-left: auto;
-    margin-right: auto;
-
-    width: 100vw;
-    max-width: 25rem;
-    
-    -ms-user-select: none; 
-    -moz-user-select: -moz-none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-td {
-    border-radius: 1rem;
-
-    background-color:dimgray;
-
+a {
     text-align: center;
-    color: black;
+    font-size: 22px;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
 
-    height: 2rem;
-}
+    margin-top: 20px;
+    
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom: 4px solid rgba(0,0,0,0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
 
-.button {
-    cursor: pointer;
+    background: rgb(60, 159, 221);
 }
